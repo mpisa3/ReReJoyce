@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>re:rejoyce - A Guided Journey Through Ulysses</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;600;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <header class="site-header">
+            <div class="header-content">
+                <h1 class="site-title">re:rejoyce</h1>
+                <p class="site-subtitle">A guided journey through James Joyce's <em>Ulysses</em></p>
+                <nav class="main-nav">
+                    <a href="#home" class="nav-link active" data-page="home">Home</a>
+                    <a href="#episodes" class="nav-link" data-page="episodes">Episodes</a>
+                    <a href="#about" class="nav-link" data-page="about">About</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- HOME PAGE -->
+            <div id="home-page" class="page-view active">
+                <div class="hero-section">
+                    <div class="hero-text">
+                        <h2 class="hero-title">In Memory of Frank Delaney</h2>
+                        <p class="hero-description">
+                            From 2010 to 2016, Frank Delaney created <em>Re:Joyce</em>, an extraordinary podcast series 
+                            that walked readers through James Joyce's <em>Ulysses</em> sentence by sentence, illuminating 
+                            its multilayered meanings with warmth, scholarship, and infectious enthusiasm.
+                        </p>
+                        <p class="hero-description">
+                            Delaney's death in 2017 left the project unfinished, ending at Episode 6, "Hades." 
+                            This site continues in his spirit—drawing from scholarly sources to guide readers 
+                            through all eighteen episodes of Joyce's modernist masterpiece.
+                        </p>
+                        <blockquote class="opening-quote">
+                            "Stately, plump Buck Mulligan came from the stairhead, bearing a bowl of lather 
+                            on which a mirror and a razor lay crossed."
+                            <cite>— Ulysses, Episode 1</cite>
+                        </blockquote>
+                        <a href="#episodes" class="cta-button" data-page="episodes">Begin the Journey</a>
+                    </div>
+                </div>
+
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>18 Episodes</h3>
+                        <p>Follow Leopold Bloom through a single day in Dublin, June 16, 1904</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Homeric Parallels</h3>
+                        <p>Each episode mirrors an episode from Homer's <em>Odyssey</em></p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Rich Annotations</h3>
+                        <p>Historical context, literary allusions, and cultural references explained</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EPISODES PAGE -->
+            <div id="episodes-page" class="page-view">
+                <div class="episodes-intro">
+                    <h2>The Episodes of Ulysses</h2>
+                    <p class="episodes-description">
+                        Joyce structured <em>Ulysses</em> into eighteen episodes, each corresponding to an episode 
+                        in Homer's <em>Odyssey</em>. The novel takes place over a single day—June 16, 1904—in Dublin, 
+                        following Leopold Bloom, Stephen Dedalus, and Molly Bloom through their ordinary yet profound experiences.
+                    </p>
+                </div>
+
+                <div class="episodes-grid" id="episodes-grid">
+                    <!-- Episodes will be loaded here by JavaScript -->
+                </div>
+            </div>
+
+            <!-- EPISODE DETAIL PAGE -->
+            <div id="episode-detail-page" class="page-view">
+                <div class="episode-detail" id="episode-detail-content">
+                    <!-- Episode detail content will be loaded here -->
+                </div>
+            </div>
+
+            <!-- ABOUT PAGE -->
+            <div id="about-page" class="page-view">
+                <div class="about-content">
+                    <h2>About This Project</h2>
+                    
+                    <section class="about-section">
+                        <h3>In Memory of Frank Delaney</h3>
+                        <p>
+                            Frank Delaney (1942-2017) was an Irish writer and broadcaster whose podcast <em>Re:Joyce</em> 
+                            became an invaluable companion for readers tackling Joyce's notoriously challenging masterwork. 
+                            With patience, erudition, and genuine love for the material, Delaney guided listeners through 
+                            the opening episodes of <em>Ulysses</em>, explaining historical references, unpacking literary 
+                            allusions, and revealing the extraordinary artistry in Joyce's prose.
+                        </p>
+                        <p>
+                            His death in 2017 left the project incomplete, but his approach—careful, generous, and 
+                            deeply appreciative of both Joyce's genius and the reader's effort—continues to inspire.
+                        </p>
+                    </section>
+
+                    <section class="about-section">
+                        <h3>About <em>Ulysses</em></h3>
+                        <p>
+                            Published in 1922, James Joyce's <em>Ulysses</em> chronicles a single day—June 16, 1904—in 
+                            the life of Leopold Bloom, a Jewish advertising canvasser in Dublin. Paralleling Homer's 
+                            <em>Odyssey</em>, the novel transforms an ordinary day into an epic of consciousness, 
+                            experimenting with narrative technique, language, and form in ways that revolutionized 
+                            modern literature.
+                        </p>
+                        <p>
+                            Each of its eighteen episodes employs a different literary style or technique, ranging 
+                            from stream of consciousness to catechism, from parodies of English prose styles to 
+                            musical fugue. The result is challenging, rewarding, and endlessly rich.
+                        </p>
+                    </section>
+
+                    <section class="about-section">
+                        <h3>Sources & Acknowledgments</h3>
+                        <p>This site draws from several invaluable scholarly resources:</p>
+                        <ul>
+                            <li><strong><a href="https://www.joyceproject.com/" target="_blank" style="color: var(--burnt-orange); text-decoration: none; border-bottom: 1px solid var(--burnt-orange);">The Joyce Project</a></strong> - A comprehensive, freely available online resource curated by Professor John Hunt of the University of Montana. The Joyce Project provides the full text of <em>Ulysses</em> with scholarly annotations, images, character lists, and detailed episode introductions. Many annotations and contextual insights on this site are drawn from or inspired by The Joyce Project's excellent scholarship.</li>
+                            <li><strong>Don Gifford's <em>Ulysses Annotated</em></strong> - The standard reference work for Joyce scholars, providing encyclopedic annotations covering literary allusions, historical references, Dublin topography, slang, and much more</li>
+                            <li><strong>The Linati and Gilbert Schemas</strong> - Joyce's own frameworks for understanding the novel's structure, showing the Homeric parallels, organs, arts, colors, symbols, and techniques for each episode</li>
+                            <li><strong>Historical and geographical references</strong> about 1904 Dublin, Irish politics, and cultural context</li>
+                            <li><strong>Contemporary Joyce scholarship</strong> from various academic sources</li>
+                        </ul>
+                        <p>
+                            All content is presented for educational purposes, with proper attribution to sources. 
+                            The text of <em>Ulysses</em> (published 1922) is in the public domain.
+                        </p>
+                        <p style="margin-top: 1rem; font-style: italic; color: var(--slate);">
+                            Special thanks to The Joyce Project for making high-quality Joyce scholarship freely available to readers worldwide.
+                        </p>
+                    </section>
+
+                    <section class="about-section">
+                        <h3>How to Use This Site</h3>
+                        <p>
+                            Navigate to the <strong>Episodes</strong> page to see all eighteen episodes of <em>Ulysses</em>. 
+                            Each episode page provides:
+                        </p>
+                        <ul>
+                            <li>Schema information (time, place, Homeric parallel, organ, art, symbol, technique)</li>
+                            <li>Episode overview and key themes</li>
+                            <li>Historical and cultural context</li>
+                            <li>Passage-by-passage annotations (in development)</li>
+                        </ul>
+                        <p>
+                            Whether you're reading <em>Ulysses</em> for the first time or returning to it, 
+                            this site aims to enrich your journey through Joyce's Dublin.
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <p>re:rejoyce • In memory of Frank Delaney (1942-2017) • Created with reverence for Joyce and gratitude for Delaney</p>
+            <p class="footer-note">All content for educational purposes • <em>Ulysses</em> text is in the public domain</p>
+        </footer>
+    </div>
+
+    <script src="episodes-data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
